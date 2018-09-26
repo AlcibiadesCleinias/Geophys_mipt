@@ -10,5 +10,5 @@ export OMP_NUM_THREADS=$PBS_NUM_PPN
 cd $PBS_O_WORKDIR
 
 
-./../rect/build/rect 1A.conf
+./../rect/build/rect conf_files/1A.conf
  
