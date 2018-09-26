@@ -35,3 +35,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# users conf #
+##############
+Output_from_geophys_server/
