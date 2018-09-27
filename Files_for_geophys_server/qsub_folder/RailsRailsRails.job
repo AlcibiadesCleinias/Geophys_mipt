@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#PBS -l walltime=72:00:00,nodes=1:ppn=1
+#PBS -N Rail_bin.conf
+#PBS -q batch
+
+export OMP_NUM_THREADS=$PBS_NUM_PPN
+
+
+cd $PBS_O_WORKDIR
+
+
+./../rect/build/rect ../conf_files/Static_rail.conf
+ 
