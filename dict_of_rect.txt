@@ -1,0 +1,10 @@
+# dict for rect programm #
+##########################
+
+size - число точек
+
+embankment_under - гравий над землей, под рельсами
+embankment_bet_100 - гравийчик м\у шпалами
+sleeper_100 - сама шпалка
+ForceRectElasticBoundary2D - свободная граница ?
+
